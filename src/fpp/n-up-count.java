@@ -10,13 +10,13 @@ public static int nUpCount(int[] a, int n){
 			
 			partialSum += a[i];
 			
-			System.out.println(partialSum);
+			System.out.println(partialSum); // this line is just for test
 			
 			partialSumArray[i] = partialSum;
 			
 			if(partialSum > n && partialSumArray[i-1] <= n){
 				counter++;
-				System.out.println("here");
+				System.out.println("here"); // this line is just for test
 			}
 			
 		}
